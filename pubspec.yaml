@@ -1,0 +1,13 @@
+name: wifi_heatmap
+description: WiFi signal heatmap mapper
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^11.3.0
+  image_picker: ^1.0.7
+flutter:
+  uses-material-design: true
